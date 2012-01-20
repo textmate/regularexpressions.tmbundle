@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(?'${1:name}'${2:subexp})</string>
+	<string>(?'${1:group name}'${2:reg-exp)</string>
 	<key>name</key>
 	<string>named group</string>
 	<key>scope</key>
-	<string>string.regexp.oniguruma</string>
+	<string>source.regexp.oniguruma</string>
 	<key>tabTrigger</key>
 	<string>named</string>
 	<key>uuid</key>

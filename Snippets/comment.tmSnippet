@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>comment</string>
 	<key>scope</key>
-	<string>string.regexp.oniguruma</string>
+	<string>source.regexp.oniguruma</string>
 	<key>tabTrigger</key>
 	<string>comment</string>
 	<key>uuid</key>

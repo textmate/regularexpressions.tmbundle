@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(?=${1:subexp})</string>
+	<string>(?=${1:look-ahead for})</string>
 	<key>name</key>
 	<string>look-ahead</string>
 	<key>scope</key>
-	<string>string.regexp.oniguruma</string>
+	<string>source.regexp.oniguruma</string>
 	<key>tabTrigger</key>
 	<string>look</string>
 	<key>uuid</key>
