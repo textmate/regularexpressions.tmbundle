@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>(?#${1:comment})</string>
 	<key>name</key>
-	<string>comment</string>
+	<string>Comment</string>
 	<key>scope</key>
 	<string>source.regexp.oniguruma</string>
 	<key>tabTrigger</key>

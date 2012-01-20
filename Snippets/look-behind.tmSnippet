@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>(?&lt;=${1:look-behind for})</string>
 	<key>name</key>
-	<string>look-behind</string>
+	<string>Look-behind</string>
 	<key>scope</key>
 	<string>source.regexp.oniguruma</string>
 	<key>tabTrigger</key>

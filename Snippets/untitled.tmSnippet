@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>(?!${1:negative look-ahead for})</string>
 	<key>name</key>
-	<string>negative look-ahead</string>
+	<string>Negative look-ahead</string>
 	<key>scope</key>
 	<string>source.regexp.oniguruma</string>
 	<key>tabTrigger</key>
