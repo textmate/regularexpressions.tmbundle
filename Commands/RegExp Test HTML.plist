@@ -12,12 +12,19 @@
 # remove -x from  before the -c (below) to include nonmatching lines.
 # Replace `pbpaste` with a regexp string if you don't like copying first.
 # You can replace or reorder the color list with any html-okay colors or #ffffff values.
+# &lt;?php echo htmlentities($dbcontent); ?&gt;
 
-echo "&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body bgcolor='DarkGrey'&gt;"
-echo "&lt;h3&gt;Results for / `pbpaste` / &lt;/h3&gt;"
+echo "&lt;html&gt;&lt;head&gt;&lt;/head&gt;"
+echo "&lt;body bgcolor='DarkGrey'&gt;"
+echo "Results for Regular Expression:&lt;/br&gt;"
+echo "&lt;textarea name='regex' type='text' rows='3' cols='80'&gt;"
+echo "`pbpaste`"
+echo "&lt;/textarea&gt;&lt;/br&gt;"
 echo "&lt;tt&gt;"
-"$TM_BUNDLE_SUPPORT/bin/hl.pl" -x -c "Red","Dark Blue","Dark Purple","Brown","Burgundy","Forest Green","Yellow","Pastel Green","Light Purple","Pink","Turquoise","Light Blue","Dark Grey","Orange","Grass Green" "`pbpaste`"
-echo "&lt;/tt&gt;&lt;/body&gt;&lt;/html&gt;"</string>
+"$TM_BUNDLE_SUPPORT/bin/hl.pl"  -c "Red","Dark Blue","Dark Purple","Brown","Burgundy","Forest Green","Yellow","Pastel Green","Light Purple","Pink","Turquoise","Light Blue","Dark Grey","Orange","Grass Green" "`pbpaste`"
+echo "&lt;/tt&gt;"
+echo "&lt;/body&gt;"
+echo "&lt;/html&gt;"</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>
