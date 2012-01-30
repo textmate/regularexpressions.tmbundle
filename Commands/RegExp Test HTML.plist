@@ -21,7 +21,7 @@ echo "&lt;textarea name='regex' type='text' rows='3' cols='80'&gt;"
 echo "`pbpaste`"
 echo "&lt;/textarea&gt;&lt;/br&gt;"
 echo "&lt;tt&gt;"
-"$TM_BUNDLE_SUPPORT/bin/hl.pl"  -c "Red","Dark Blue","Dark Purple","Brown","Burgundy","Forest Green","Yellow","Pastel Green","Light Purple","Pink","Turquoise","Light Blue","Dark Grey","Orange","Grass Green" "`pbpaste`"
+"$TM_BUNDLE_SUPPORT/bin/hl.pl"  -c "Red","Forest Green","Dark Blue","Dark Purple","Brown","Burgundy","Yellow","Pastel Green","Light Purple","Pink","Turquoise","Light Blue","Dark Grey","Orange","Grass Green" "`pbpaste`"
 echo "&lt;/tt&gt;"
 echo "&lt;/body&gt;"
 echo "&lt;/html&gt;"</string>
