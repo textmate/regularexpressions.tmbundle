@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\${${1:tab stop}/${2:regexp}/${3:format}/${4|i,g,ig,options|}}</string>
+	<key>name</key>
+	<string>transformation</string>
+	<key>scope</key>
+	<string>source.regexp.oniguruma</string>
+	<key>tabTrigger</key>
+	<string>tran</string>
+	<key>uuid</key>
+	<string>F0AB00CC-09DD-47AA-9604-6D2674C66FE8</string>
+</dict>
+</plist>
