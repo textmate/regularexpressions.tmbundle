@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Look-ahead</string>
 	<key>scope</key>
-	<string>source.regexp.oniguruma</string>
+	<string>source.regexp.oniguruma, text.tm-snippet</string>
 	<key>tabTrigger</key>
 	<string>look</string>
 	<key>uuid</key>
