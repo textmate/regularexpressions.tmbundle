@@ -39,6 +39,8 @@ echo "&lt;/html&gt;"</string>
 	<string>html</string>
 	<key>outputLocation</key>
 	<string>newWindow</string>
+	<key>scope</key>
+	<string>source.regexp.oniguruma, text.tm-snippet, string.regexp</string>
 	<key>uuid</key>
 	<string>8FDBC987-A543-11D9-B374-000D9332809C</string>
 	<key>version</key>

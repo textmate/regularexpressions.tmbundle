@@ -7,9 +7,9 @@
 	<key>name</key>
 	<string>transformation</string>
 	<key>scope</key>
-	<string>source.regexp.oniguruma, text.tm-snippet</string>
+	<string>source.regexp.oniguruma, text.tm-snippet, string.regexp</string>
 	<key>tabTrigger</key>
-	<string>tran</string>
+	<string>transform</string>
 	<key>uuid</key>
 	<string>F0AB00CC-09DD-47AA-9604-6D2674C66FE8</string>
 </dict>
