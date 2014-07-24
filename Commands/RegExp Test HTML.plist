@@ -1,30 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># put a regular expression on the clipboard and select text to be searched. Output is your document with all matches highlighted.
-# add a -x before the -c to omit nonmatching lines.
+	<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+# put a regular expression on the clipboard and select text to be searched. Output is your document with all matches highlighted.
+# remove -x from  before the -c (below) to include nonmatching lines.
 # Replace `pbpaste` with a regexp string if you don't like copying first.
 # You can replace or reorder the color list with any html-okay colors or #ffffff values.
+# &lt;?php echo htmlentities($dbcontent); ?&gt;
 
-echo "&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;"
-echo "&lt;h3&gt;Results for /`pbpaste`/&lt;/h3&gt;&lt;tt&gt;"
-
-"$TM_BUNDLE_SUPPORT/bin/hl.pl" -c "Red","Dark Blue","Dark Purple","Brown","Burgundy","Forest Green","Yellow","Pastel Green","Light Purple","Pink","Turquoise","Light Blue","Dark Grey","Orange","Grass Green" "`pbpaste`"
-
-echo "&lt;/tt&gt;&lt;/body&gt;&lt;/html&gt;"</string>
+echo "&lt;html&gt;&lt;head&gt;&lt;/head&gt;"
+echo "&lt;body bgcolor='DarkGrey'&gt;"
+echo "Results for Regular Expression:&lt;/br&gt;"
+echo "&lt;textarea name='regex' type='text' rows='3' cols='80'&gt;"
+echo "`pbpaste`"
+echo "&lt;/textarea&gt;&lt;/br&gt;"
+echo "&lt;tt&gt;"
+"$TM_BUNDLE_SUPPORT/bin/hl.pl"  -c "Red","Forest Green","Dark Blue","Dark Purple","Brown","Burgundy","Yellow","Pastel Green","Light Purple","Pink","Turquoise","Light Blue","Dark Grey","Orange","Grass Green" "`pbpaste`"
+echo "&lt;/tt&gt;"
+echo "&lt;/body&gt;"
+echo "&lt;/html&gt;"</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>^~@x</string>
 	<key>name</key>
 	<string>Test RegExp in Clipboard</string>
-	<key>output</key>
-	<string>showAsHTML</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>scope</key>
+	<string>source.regexp.oniguruma, text.tm-snippet, string.regexp</string>
 	<key>uuid</key>
 	<string>8FDBC987-A543-11D9-B374-000D9332809C</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>

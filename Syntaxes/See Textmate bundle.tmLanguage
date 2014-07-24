@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>name</key>
+	<string>See Textmate bundle</string>
+	<key>patterns</key>
+	<array/>
+	<key>scopeName</key>
+	<string>see.textmate.bundle</string>
+	<key>uuid</key>
+	<string>E440C093-7BD8-46A3-BC60-8913AC3BE3D0</string>
+</dict>
+</plist>

@@ -1,6 +1,17 @@
 # Installation
-
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
+
+
+# Supports Regular expression usage in TextMate.
+Learn more about the Textmate regular expressions [here http://manual.macromates.com/en/regular_expressions]. Learn about [Oniguruma](http://en.wikipedia.org/wiki/Oniguruma) [here http://www.geocities.jp/kosako3/oniguruma/].
+
+### Commands
+This bundle has commands to try out a regular expressions on the clipboard or in the first line of a document.
+### Snippets
+The bundle also supports snippets to help write more complex regular expressions (look ahead, negative look behind etc.) as well as inserting comments in expresssions.
+
+
+**Note**: the grammar for regular expressions is in the [Textmate bundle https://github.com/textmate/textmate.tmbundle].
 
 # General
 

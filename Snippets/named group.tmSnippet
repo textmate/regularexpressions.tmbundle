@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(?'${1:group name}'${2:reg-exp)</string>
+	<key>name</key>
+	<string>Named-group</string>
+	<key>scope</key>
+	<string>source.regexp.oniguruma, text.tm-snippet, string.regexp</string>
+	<key>tabTrigger</key>
+	<string>named</string>
+	<key>uuid</key>
+	<string>6A4AED05-BF49-46CE-807A-F0673ADB394E</string>
+</dict>
+</plist>

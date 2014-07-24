@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(?&lt;=${1:look-behind for})</string>
+	<key>name</key>
+	<string>Look-behind</string>
+	<key>scope</key>
+	<string>source.regexp.oniguruma, text.tm-snippet, string.regexp</string>
+	<key>tabTrigger</key>
+	<string>look</string>
+	<key>uuid</key>
+	<string>FC3DD5E2-E3CE-4AF3-ADA1-25E17AE6288B</string>
+</dict>
+</plist>
